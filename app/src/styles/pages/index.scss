@@ -1,0 +1,45 @@
+.app {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.app-name {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  display: block;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid rgba(#000, 0.2);
+  font-family: "Gentium Basic", serif;
+  font-size: 1.4rem;
+  color: rgba(#000, 0.6);
+
+  &::placeholder,
+  &::-webkit-input-placeholder {
+    opacity: 0.4;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.not-found {
+  .error-message {
+    font-family: "Overpass", sans-serif;
+    font-size: 2rem;
+    opacity: 0.6;
+    margin: auto;
+    text-align: center;
+  }
+}
